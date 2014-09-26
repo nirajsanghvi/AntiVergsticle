@@ -1,6 +1,6 @@
 {
   "name": "Anti-Vergesticle",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "manifest_version": 2,
   "description": "Removes click-bait titles",
   "homepage_url": "http://theverge.com",

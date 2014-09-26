@@ -34,8 +34,7 @@ chrome.extension.sendMessage({}, function(response) {
 		jQuery.each(jQuery('.p-entry-nav a'), function(){
 			jQuery(this).find('span').text(link_to_title(jQuery(this).prop('href')));
 		});		
-		
-		
+
 	}
 	}, 10);
 });

@@ -1,6 +1,6 @@
 {
   "name": "Anti-Vergesticle",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "manifest_version": 2,
   "description": "Removes click-bait titles",
   "homepage_url": "http://theverge.com",
@@ -11,12 +11,12 @@
   },
   "default_locale": "en",
   "permissions": [
-    "http://www.theverge.com/"
+    "http://www.theverge.com/*"
   ],
   "content_scripts": [
     {
       "matches": [
-        "http://www.theverge.com/"
+        "http://www.theverge.com/*"
       ],
       "js": [
         "src/inject/inject.js",

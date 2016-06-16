@@ -2,6 +2,14 @@ chrome.extension.sendMessage({}, function(response) {
 	var showTooltip = false;
 	var showHover = true;
 
+	chrome.storage.sync.get({
+		showTooltip: false,
+		showHover: true
+	}, function (items) {
+		showTooltip = items.showTooltip;
+		showHover = items.showHover;
+	});
+
 	var readyStateCheckInterval = setInterval(function() {
 	if (document.readyState === "complete") {
 		clearInterval(readyStateCheckInterval);

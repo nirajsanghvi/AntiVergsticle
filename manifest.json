@@ -20,7 +20,7 @@
       ],
       "js": [
         "src/inject/inject.js",
-        "js/jquery/jquery.min.js"
+        "js/jquery/jquery-3.0.0.min.js"
       ]
     }
   ]

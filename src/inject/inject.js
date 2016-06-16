@@ -1,5 +1,6 @@
 chrome.extension.sendMessage({}, function(response) {
 	var showTooltip = false;
+	var showHover = true;
 
 	var readyStateCheckInterval = setInterval(function() {
 	if (document.readyState === "complete") {
@@ -35,7 +36,9 @@ chrome.extension.sendMessage({}, function(response) {
 				$currElement.prop('title', crapTitle);
 			}
 
-			addHover($currElement, $textElement, keywordTitle, crapTitle);
+			if (showHover) {
+				addHover($currElement, $textElement, keywordTitle, crapTitle);
+			}
 
 			$textElement.text(keywordTitle);
 		}

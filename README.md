@@ -1,13 +1,8 @@
 AntiVergsticle
 ==============
 
-Replaces clickbait titles on the verge.com
+Builds off the excellent extension from here:  
+https://github.com/paulfalgout/AntiVergsticle
 
-
-Hastily published extension:
-https://chrome.google.com/webstore/detail/anti-vergesticle/fofekpkgpkjombjgkhjplmabiiednbai?hl=en&gl=US
-
-To avoid clickbait also check out
-https://twitter.com/savedyouaverge
-https://twitter.com/savedyouaclick
+Adds support for viewing the original titles via mouse hover (default) or browser tooltips.
 
